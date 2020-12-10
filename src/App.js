@@ -3,6 +3,9 @@ import axios from 'axios';
 import APOD from './APOD'
 import "./App.css";
 
+const API_KEY = 'Xt2B5L8vTdWhqdlhWlf1KUaS0Z2BAYy9cn6svr28'
+const URL = 'https://api.nasa.gov/planetary'
+
 function App() {
   return (
     <div className="App">
